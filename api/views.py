@@ -1,9 +1,6 @@
 
-
-from django.shortcuts import render,redirect
 from api.forms import RegistrationForm,QuestionForm,AnswerForm
-from django.views.generic import TemplateView
-from django.views.generic import CreateView,FormView,ListView,DetailView
+from django.views.generic import CreateView,FormView,ListView,DetailView,TemplateView
 from django.urls import reverse_lazy
 from api.forms import LoginForm
 from django.contrib.auth import authenticate,login,logout

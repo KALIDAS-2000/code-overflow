@@ -1,7 +1,7 @@
 
 
 from tkinter import Widget
-from tkinter.tix import Select
+# from tkinter.tix import Select
 from django import forms
 from api.models import MyUser
 from django.contrib.auth.forms import UserCreationForm
